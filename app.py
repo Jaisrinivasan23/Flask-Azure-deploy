@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 import pyodbc
 from config import DB_CONFIG
-
+from flask import Flask
 app = Flask(__name__)
 
 # Connect to Azure SQL
